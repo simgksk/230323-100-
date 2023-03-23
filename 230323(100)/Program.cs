@@ -4,9 +4,14 @@ namespace _230323_100_
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            int a = int.Parse(Console.ReadLine());
+
+            for(int i=1; i<=a; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
